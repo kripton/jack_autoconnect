@@ -16,3 +16,9 @@ Automatically connect the jack ports of mpd to any connected netadapter client. 
 ./jack_autoconnect "Music Player Daemon:left" ".*:to_slave_1" "Music Player Daemon:right" ".*:to_slave_2"
 ```
 
+Compilation
+================
+As with all Qt projects:
+```
+qmake . && make
+```
