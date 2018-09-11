@@ -20,5 +20,6 @@ Compilation
 ================
 As with all Qt projects:
 ```
+sudo apt install qt5-default libjack-jackd2-dev
 qmake . && make
 ```
