@@ -18,7 +18,12 @@ Automatically connect the jack ports of mpd to any connected netadapter client. 
 
 Compilation
 ================
-As with all Qt projects:
+Install the required dependencies and header files first. For Debian-based distros:
+```
+sudo apt install qt5-default libjack-jackd2-dev
+```
+
+Then compile as with all Qt projects:
 ```
 qmake . && make
 ```
